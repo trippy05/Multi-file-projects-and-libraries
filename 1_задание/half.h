@@ -2,7 +2,7 @@
 #define UNTITLED13_HALF_H
 #include <iostream>
 #include <cmath>
-int get_number(int);
+int get_number();
 double add(double, double);
 double sub(double, double);
 double mult(double, double);

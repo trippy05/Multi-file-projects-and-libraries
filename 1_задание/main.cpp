@@ -3,13 +3,13 @@
 using namespace std;
 
 int main() {
-    int number;
+    int number = 0;
     double num1 = 0, num2 = 0;
     cout << "Enter num1:  ";
     cin >> num1;
     cout << "Enter num2:  ";
     cin >> num2;
-    number = get_number(number);
+    number = get_number();
     if (number == 1)
         cout << add(num1, num2) << endl;
     if (number == 2)

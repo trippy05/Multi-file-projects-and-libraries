@@ -1,5 +1,14 @@
 #include <iostream>
 #include "half.h"
+#include "Triangle.h"
+#include "isoscelesTriangle.h"
+#include "rightTriangle.h"
+#include "Quadrilateral.h"
+#include "equilateralTriangle.h"
+#include "Parallelogram.h"
+#include "Phombus.h"
+#include "Rectangle.h"
+#include "Square.h"
 using namespace std;
 int main() {
   Triangle f1(10, 20, 30, 50, 60, 70);

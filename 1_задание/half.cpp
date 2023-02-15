@@ -2,7 +2,8 @@
 #include "half.h"
 using namespace std;
 
-int get_number(int number) {
+int get_number() {
+    int number = 0;
     cout << "Select an operation (1 - addition, 2 subtraction, 3 - multiplication, 4 - division, 5 - exponentiation): ";
     cin >> number;
     return number;

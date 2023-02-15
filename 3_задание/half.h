@@ -1,6 +1,8 @@
+#pragma once
 #ifndef UNTITLED15_HALF_H
 #define UNTITLED15_HALF_H
-#include <iostream>
+#include "Figure.h"
+/*
 class Figure{
 public:
     virtual void calc_print() const = 0;
@@ -63,5 +65,6 @@ class Square: public Rectangle{
 public:
     Square(int, int);
 };
+*/
 void printdata(Figure*);
 #endif //UNTITLED15_HALF_H
